@@ -1,3 +1,5 @@
+package NutritionFacts;
+
 public class NutritionFacts {
     private final int servingSize;
     private final int servings;
@@ -56,7 +58,7 @@ public class NutritionFacts {
 
     @Override
     public String toString() {
-        return "NutritionFacts{" +
+        return "NutritionFacts.NutritionFacts{" +
                 "servingSize=" + servingSize +
                 ", servings=" + servings +
                 ", calories=" + calories +
